@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nexus4812/htmx-sandbox/issues"
   },
-  "homepage": "https://github.com/nexus4812/htmx-sandbox#readme"
+  "homepage": "https://github.com/nexus4812/htmx-sandbox#readme",
+  "dependencies": {
+    "htmx.org": "^1.9.10"
+  }
 }
