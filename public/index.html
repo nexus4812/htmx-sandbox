@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8" />
     <title>Webpack</title>
+    <script src="./main.js"></script>
 </head>
 <body>
-<script src="./main.js"></script>
+
+<div hx-target="this" hx-swap="outerHTML">
+    <div><label>First Name</label>: Joe</div>
+    <div><label>Last Name</label>: Blow</div>
+    <div><label>Email</label>: joe@blow.com</div>
+    <button hx-get="/endpoints/examples/click-to-edit/get.html" class="btn btn-primary">
+        Click To Edit
+    </button>
+</div>
+
 </body>
 </html>
