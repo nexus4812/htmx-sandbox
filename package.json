@@ -18,5 +18,9 @@
   "homepage": "https://github.com/nexus4812/htmx-sandbox#readme",
   "dependencies": {
     "htmx.org": "^1.9.10"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
   }
 }
